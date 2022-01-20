@@ -1,5 +1,5 @@
-var getRawBody = require('raw-body');
-var oss = require('ali-oss')
+const getRawBody = require('raw-body');
+const oss = require('ali-oss')
 const AdmZip = require('adm-zip')
 
 module.exports.handler = async function(req, resp, context) {
